@@ -6,11 +6,11 @@ terraform {
     }
   }
 
-#   backend "s3" {
-#     bucket = "futuiontech-terraform"
-#     key    = ".terraform.tfstate"
-#     region = "ap-south-1"
-#   }
+   backend "s3" {
+     bucket = "futuiontech-terraform"
+     key    = ".terraform.tfstate"
+     region = "ap-south-1"
+   }
 }
 
 # Configure the AWS Provider
